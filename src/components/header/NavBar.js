@@ -1,7 +1,6 @@
 import styled, { css } from "styled-components";
 import { FlexContainer } from "../FlexContainer";
 import { motion } from "framer-motion";
-import { BREAKPOINTS } from "../../constants/contansts";
 import { breakerForTablet } from "../../style-helpers/breakers";
 
 export const NavBar = ({ links, changePlanet, planetIndex }) => {
